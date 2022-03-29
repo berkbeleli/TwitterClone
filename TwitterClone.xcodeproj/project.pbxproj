@@ -12,6 +12,7 @@
 		C03192BA27F3369A00DAD69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03192B927F3369A00DAD69C /* Assets.xcassets */; };
 		C03192BD27F3369A00DAD69C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03192BC27F3369A00DAD69C /* Preview Assets.xcassets */; };
 		C03192CF27F337E200DAD69C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03192CE27F337E200DAD69C /* FeedView.swift */; };
+		C03192D227F3395700DAD69C /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03192D127F3395700DAD69C /* TweetRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C03192B927F3369A00DAD69C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C03192BC27F3369A00DAD69C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C03192CE27F337E200DAD69C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		C03192D127F3395700DAD69C /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		C03192CB27F3378100DAD69C /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				C03192D027F3390A00DAD69C /* Tweets */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -132,6 +135,14 @@
 			children = (
 			);
 			path = ViewModals;
+			sourceTree = "<group>";
+		};
+		C03192D027F3390A00DAD69C /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				C03192D127F3395700DAD69C /* TweetRowView.swift */,
+			);
+			path = Tweets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03192B827F3369800DAD69C /* ContentView.swift in Sources */,
+				C03192D227F3395700DAD69C /* TweetRowView.swift in Sources */,
 				C03192CF27F337E200DAD69C /* FeedView.swift in Sources */,
 				C03192B627F3369800DAD69C /* TwitterCloneApp.swift in Sources */,
 			);
