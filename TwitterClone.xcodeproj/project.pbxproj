@@ -31,6 +31,7 @@
 		C031930627F3953900DAD69C /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031930527F3953900DAD69C /* RegistrationView.swift */; };
 		C031930827F396C700DAD69C /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031930727F396C700DAD69C /* RoundedShape.swift */; };
 		C031930A27F39AD200DAD69C /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031930927F39AD200DAD69C /* CustomInputField.swift */; };
+		C031930F27F39D3D00DAD69C /* AuthenticationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031930E27F39D3D00DAD69C /* AuthenticationHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		C031930527F3953900DAD69C /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		C031930727F396C700DAD69C /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		C031930927F39AD200DAD69C /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		C031930E27F39D3D00DAD69C /* AuthenticationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		C03192CB27F3378100DAD69C /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				C031930B27F39D0100DAD69C /* Authentication */,
 				C03192E927F373F200DAD69C /* Users */,
 				C03192D027F3390A00DAD69C /* Tweets */,
 				C03192FE27F3915500DAD69C /* TextArea.swift */,
@@ -351,6 +354,14 @@
 			name = ViewModal;
 			sourceTree = "<group>";
 		};
+		C031930B27F39D0100DAD69C /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C031930E27F39D3D00DAD69C /* AuthenticationHeaderView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -425,6 +436,7 @@
 				C03192E427F3662900DAD69C /* ProfileView.swift in Sources */,
 				C03192D227F3395700DAD69C /* TweetRowView.swift in Sources */,
 				C03192F227F3778300DAD69C /* SideMenuRowView.swift in Sources */,
+				C031930F27F39D3D00DAD69C /* AuthenticationHeaderView.swift in Sources */,
 				C03192DE27F363AB00DAD69C /* NotificationView.swift in Sources */,
 				C03192CF27F337E200DAD69C /* FeedView.swift in Sources */,
 				C031930A27F39AD200DAD69C /* CustomInputField.swift in Sources */,
