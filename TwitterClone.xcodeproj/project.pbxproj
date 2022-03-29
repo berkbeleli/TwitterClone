@@ -18,6 +18,7 @@
 		C03192DE27F363AB00DAD69C /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03192DD27F363AB00DAD69C /* NotificationView.swift */; };
 		C03192E027F363C800DAD69C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03192DF27F363C800DAD69C /* MessageView.swift */; };
 		C03192E427F3662900DAD69C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03192E327F3662900DAD69C /* ProfileView.swift */; };
+		C03192E627F36DB300DAD69C /* TweetFilterViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03192E527F36DB300DAD69C /* TweetFilterViewModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C03192DD27F363AB00DAD69C /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		C03192DF27F363C800DAD69C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		C03192E327F3662900DAD69C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C03192E527F36DB300DAD69C /* TweetFilterViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 		C03192E227F3661400DAD69C /* ViewModal */ = {
 			isa = PBXGroup;
 			children = (
+				C03192E527F36DB300DAD69C /* TweetFilterViewModal.swift */,
 			);
 			path = ViewModal;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				C03192E027F363C800DAD69C /* MessageView.swift in Sources */,
 				C03192B627F3369800DAD69C /* TwitterCloneApp.swift in Sources */,
 				C03192DC27F3638500DAD69C /* ExploreView.swift in Sources */,
+				C03192E627F36DB300DAD69C /* TweetFilterViewModal.swift in Sources */,
 				C03192D527F3623100DAD69C /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
