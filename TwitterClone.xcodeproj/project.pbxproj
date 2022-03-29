@@ -11,6 +11,7 @@
 		C03192B827F3369800DAD69C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03192B727F3369800DAD69C /* ContentView.swift */; };
 		C03192BA27F3369A00DAD69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03192B927F3369A00DAD69C /* Assets.xcassets */; };
 		C03192BD27F3369A00DAD69C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03192BC27F3369A00DAD69C /* Preview Assets.xcassets */; };
+		C03192CF27F337E200DAD69C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03192CE27F337E200DAD69C /* FeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C03192B727F3369800DAD69C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C03192B927F3369A00DAD69C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C03192BC27F3369A00DAD69C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C03192CE27F337E200DAD69C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,10 @@
 		C03192B427F3369800DAD69C /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				C03192C727F336DA00DAD69C /* Extensions */,
+				C03192C627F336D900DAD69C /* Modal */,
+				C03192C527F336D500DAD69C /* Service */,
+				C03192C427F336D300DAD69C /* Core */,
 				C03192B527F3369800DAD69C /* TwitterCloneApp.swift */,
 				C03192B727F3369800DAD69C /* ContentView.swift */,
 				C03192B927F3369A00DAD69C /* Assets.xcassets */,
@@ -65,6 +71,67 @@
 				C03192BC27F3369A00DAD69C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C03192C427F336D300DAD69C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C03192CB27F3378100DAD69C /* Component */,
+				C03192CA27F3377900DAD69C /* Feed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C03192C527F336D500DAD69C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C03192C627F336D900DAD69C /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		C03192C727F336DA00DAD69C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C03192CA27F3377900DAD69C /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				C03192CD27F337B900DAD69C /* ViewModals */,
+				C03192CC27F337B700DAD69C /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C03192CB27F3378100DAD69C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		C03192CC27F337B700DAD69C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C03192CE27F337E200DAD69C /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C03192CD27F337B900DAD69C /* ViewModals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03192B827F3369800DAD69C /* ContentView.swift in Sources */,
+				C03192CF27F337E200DAD69C /* FeedView.swift in Sources */,
 				C03192B627F3369800DAD69C /* TwitterCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
