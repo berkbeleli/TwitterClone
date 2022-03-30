@@ -31,6 +31,7 @@ struct ProfileView: View {
             
             Spacer()
         }
+        .navigationBarHidden(true)
         
         
     }
@@ -56,7 +57,7 @@ extension ProfileView{
                         .resizable()
                         .frame(width: 20, height: 15)
                         .foregroundColor(.white)
-                        .offset(x:15, y: -20)
+                        .offset(x:15, y: -4)
                 }
                 
                 
