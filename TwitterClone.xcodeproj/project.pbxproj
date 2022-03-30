@@ -50,6 +50,7 @@
 		C031933227F3F6F800DAD69C /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031933127F3F6F800DAD69C /* UploadTweetViewModel.swift */; };
 		C031933427F3FA9300DAD69C /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031933327F3FA9300DAD69C /* FeedViewModel.swift */; };
 		C031933627F3FB9C00DAD69C /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031933527F3FB9C00DAD69C /* Tweet.swift */; };
+		C031933827F404BF00DAD69C /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031933727F404BF00DAD69C /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		C031933127F3F6F800DAD69C /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 		C031933327F3FA9300DAD69C /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		C031933527F3FB9C00DAD69C /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		C031933727F404BF00DAD69C /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				C03192E527F36DB300DAD69C /* TweetFilterViewModal.swift */,
+				C031933727F404BF00DAD69C /* ProfileViewModel.swift */,
 			);
 			path = ViewModal;
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 				C031930827F396C700DAD69C /* RoundedShape.swift in Sources */,
 				C03192F827F381E000DAD69C /* SideMenuOptionRowView.swift in Sources */,
 				C03192E627F36DB300DAD69C /* TweetFilterViewModal.swift in Sources */,
+				C031933827F404BF00DAD69C /* ProfileViewModel.swift in Sources */,
 				C031930427F3951700DAD69C /* LoginView.swift in Sources */,
 				C031933627F3FB9C00DAD69C /* Tweet.swift in Sources */,
 				C03192D527F3623100DAD69C /* MainTabView.swift in Sources */,
