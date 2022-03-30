@@ -48,6 +48,8 @@
 		C031932E27F3F17F00DAD69C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031932D27F3F17F00DAD69C /* SearchBar.swift */; };
 		C031933027F3F5C900DAD69C /* TweetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031932F27F3F5C800DAD69C /* TweetService.swift */; };
 		C031933227F3F6F800DAD69C /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031933127F3F6F800DAD69C /* UploadTweetViewModel.swift */; };
+		C031933427F3FA9300DAD69C /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031933327F3FA9300DAD69C /* FeedViewModel.swift */; };
+		C031933627F3FB9C00DAD69C /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031933527F3FB9C00DAD69C /* Tweet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		C031932D27F3F17F00DAD69C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		C031932F27F3F5C800DAD69C /* TweetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetService.swift; sourceTree = "<group>"; };
 		C031933127F3F6F800DAD69C /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
+		C031933327F3FA9300DAD69C /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		C031933527F3FB9C00DAD69C /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				C031932627F3E00F00DAD69C /* User.swift */,
+				C031933527F3FB9C00DAD69C /* Tweet.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 		C03192CD27F337B900DAD69C /* ViewModals */ = {
 			isa = PBXGroup;
 			children = (
+				C031933327F3FA9300DAD69C /* FeedViewModel.swift */,
 			);
 			path = ViewModals;
 			sourceTree = "<group>";
@@ -513,6 +519,7 @@
 				C031930A27F39AD200DAD69C /* CustomInputField.swift in Sources */,
 				C03192E027F363C800DAD69C /* MessageView.swift in Sources */,
 				C03192FF27F3915500DAD69C /* TextArea.swift in Sources */,
+				C031933427F3FA9300DAD69C /* FeedViewModel.swift in Sources */,
 				C03192F027F3776E00DAD69C /* SideMenuView.swift in Sources */,
 				C03192F427F3779600DAD69C /* SideMenuViewModal.swift in Sources */,
 				C031932127F3C01900DAD69C /* ImagePicker.swift in Sources */,
@@ -525,6 +532,7 @@
 				C03192F827F381E000DAD69C /* SideMenuOptionRowView.swift in Sources */,
 				C03192E627F36DB300DAD69C /* TweetFilterViewModal.swift in Sources */,
 				C031930427F3951700DAD69C /* LoginView.swift in Sources */,
+				C031933627F3FB9C00DAD69C /* Tweet.swift in Sources */,
 				C03192D527F3623100DAD69C /* MainTabView.swift in Sources */,
 				C03192F627F379C600DAD69C /* UserStatsView.swift in Sources */,
 				C031930627F3953900DAD69C /* RegistrationView.swift in Sources */,
