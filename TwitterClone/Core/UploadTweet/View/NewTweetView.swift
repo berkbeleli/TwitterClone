@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct NewTweetView: View {
     @State private var caption = ""
     @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var authViewModel: AuthViewModel
+    @ObservedObject var viewModel = UploadTweetViewModel()
     
     var body: some View {
         VStack{
@@ -24,7 +27,7 @@ struct NewTweetView: View {
                 Spacer()
                 
                 Button {
-                    print("tweet")
+                    viewModel.uploadTweet(withCaption: caption)
                 } label: {
                     Text("Tweet")
                         .bold()
@@ -40,12 +43,24 @@ struct NewTweetView: View {
             
             HStack(alignment: .top){
                 
-                Circle()
+                if let user = authViewModel.currentUser{
+                    KFImage(URL(string: user.profileImageUrl))
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(Circle())
                     .frame(width: 60, height: 60)
+                }
+        
+                    
                 
                 TextArea("What's going on", text: $caption)
             }
             .padding()
+        }
+        .onReceive(viewModel.$didUploadTweet) { success in
+            if success{
+            presentationMode.wrappedValue.dismiss()
+            }
         }
     }
 }
