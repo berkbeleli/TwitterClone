@@ -19,7 +19,7 @@ struct SideMenuView: View {
                         .resizable()
                         .scaledToFit()
                         .clipShape(Circle())
-                        .frame(width: 45, height: 45)
+                        .frame(width: 60, height: 60)
                     
                     VStack(alignment: .leading,spacing: 5){
                         Text(user.fullname)

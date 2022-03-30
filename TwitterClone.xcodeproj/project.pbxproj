@@ -44,6 +44,7 @@
 		C031932527F3DD1D00DAD69C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031932427F3DD1D00DAD69C /* UserService.swift */; };
 		C031932727F3E00F00DAD69C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031932627F3E00F00DAD69C /* User.swift */; };
 		C031932A27F3E4A200DAD69C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C031932927F3E4A200DAD69C /* Kingfisher */; };
+		C031932C27F3EC3000DAD69C /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031932B27F3EC3000DAD69C /* ExploreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		C031932227F3C74500DAD69C /* ImageUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUpload.swift; sourceTree = "<group>"; };
 		C031932427F3DD1D00DAD69C /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		C031932627F3E00F00DAD69C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C031932B27F3EC3000DAD69C /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +296,7 @@
 		C03192E827F373CB00DAD69C /* ViewModal */ = {
 			isa = PBXGroup;
 			children = (
+				C031932B27F3EC3000DAD69C /* ExploreViewModel.swift */,
 			);
 			path = ViewModal;
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 				C03192E427F3662900DAD69C /* ProfileView.swift in Sources */,
 				C03192D227F3395700DAD69C /* TweetRowView.swift in Sources */,
 				C031932327F3C74500DAD69C /* ImageUpload.swift in Sources */,
+				C031932C27F3EC3000DAD69C /* ExploreViewModel.swift in Sources */,
 				C03192F227F3778300DAD69C /* SideMenuRowView.swift in Sources */,
 				C031930F27F39D3D00DAD69C /* AuthenticationHeaderView.swift in Sources */,
 				C031932727F3E00F00DAD69C /* User.swift in Sources */,
