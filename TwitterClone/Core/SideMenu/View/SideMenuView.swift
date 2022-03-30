@@ -6,52 +6,58 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct SideMenuView: View {
     @EnvironmentObject var viewModel: AuthViewModel
     var body: some View {
         
-        VStack(alignment: .leading, spacing: 30) {
-            VStack(alignment: .leading){
-                Circle()
-                    .frame(width: 45, height: 45)
-                
-                VStack(alignment: .leading,spacing: 5){
-                    Text("Robert Downey")
-                        .font(.headline)
+        if let user = viewModel.currentUser {
+            VStack(alignment: .leading, spacing: 30) {
+                VStack(alignment: .leading){
+                    KFImage(URL(string: user.profileImageUrl))
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(Circle())
+                        .frame(width: 45, height: 45)
                     
-                    Text("@ironman")
-                        .font(.caption)
-                        .foregroundColor(.gray)
+                    VStack(alignment: .leading,spacing: 5){
+                        Text(user.fullname)
+                            .font(.headline)
+                        
+                        Text("@\(user.username)")
+                            .font(.caption)
+                            .foregroundColor(.gray)
+                    }
+                    
+                    UserStatsView()
+                        .padding(.vertical)
+                    
+                    
                 }
-                
-                UserStatsView()
-                    .padding(.vertical)
-                
-                
-            }
-            .padding(.leading)
-            ForEach(SideMenuViewModal.allCases, id: \.self){option in
-                if option == .profile{
-                    NavigationLink {
-                        ProfileView()
-                    } label: {
+                .padding(.leading)
+                ForEach(SideMenuViewModal.allCases, id: \.self){option in
+                    if option == .profile{
+                        NavigationLink {
+                            ProfileView(user: user)
+                        } label: {
+                            SideMenuOptionRowView(viewModal: option)
+                        }
+                    }else if option == .logout{
+                        Button{
+                            viewModel.signOut()
+                        }label: {
+                            SideMenuOptionRowView(viewModal: option)
+                        }
+                    }else{
                         SideMenuOptionRowView(viewModal: option)
                     }
-                }else if option == .logout{
-                    Button{
-                        viewModel.signOut()
-                    }label: {
-                        SideMenuOptionRowView(viewModal: option)
-                    }
-                }else{
-                    SideMenuOptionRowView(viewModal: option)
+                    
+                    
                 }
-                
+                Spacer()
                 
             }
-            Spacer()
-            
         }
         
     }
